@@ -1,0 +1,20 @@
+<div class="jumbotron">
+    <paper-button ng-click="changeEx()" raised>Experience</paper-button>
+    <paper-button ng-click="changeSkills()" raised>Skills</paper-button>
+    <paper-button ng-click="changeEdu()" raised>Education</paper-button>
+    <paper-button ng-click="changeMisc()" raised>Misc.</paper-button>
+</div>
+<div class="container">
+    <div ng-show="exp">
+        <p>Experience</p>
+    </div>
+    <div ng-show="skills">
+        <p>Skills</p>
+    </div>
+    <div ng-show="education">
+        <p>Education</p>
+    </div>
+    <div ng-show="misc">
+        <p>Misc.</p>
+    </div>
+</div>
